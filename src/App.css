@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.crypto-tracker {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .crypto-tracker__title {
+    font-size: 2em;
+    margin: 0;
+}
+  
+  .crypto-tracker__form {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+  }
+  
+  .crypto-tracker__label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .crypto-tracker__input {
+    flex: 1;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 0;
+  }
+  
+  .crypto-tracker__button {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .crypto-tracker__button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .crypto-tracker__subtitle {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .crypto-tracker__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .crypto-tracker__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f200;
+  }
+  
+  .crypto-tracker__name {
+    font-weight: bold;
+  }
+  
+  .crypto-tracker__delta {
+    font-size: 1.2em;
+  }
+  
+  .crypto-tracker__delete-button {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .crypto-tracker__delete-button:hover {
+    background-color: #da190b;
+  }
